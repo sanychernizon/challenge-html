@@ -186,3 +186,93 @@ main {
   text-align: center;
   margin-top: 2%;
 }
+
+.what-is {
+  height: 500px;
+  background-color: #2481b7;
+  background-image: url("images/forklift.svg");
+}
+
+.what-is div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15%;
+  padding-top: 6%;
+}
+
+.what-is div h2 {
+  font-size: 2em;
+  color: white;
+}
+
+.what-is div p {
+  color: white;
+  width: 30%;
+  margin-top: 2%;
+  font-size: 1.2em;
+}
+
+.what-is div a {
+  background-color: #34495e;
+  color: #ffffff;
+  border-radius: 25px;
+  height: 42px;
+  line-height: 42px;
+  width: 130px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.advantages {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages .title h1 {
+  font-size: 2.5em;
+  padding-top: 3%;
+}
+
+.advantages .title p {
+  font-size: 1.2em;
+  padding: 2%;
+  color: gray;
+}
+
+.adv-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.center {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 2%;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.ltr h2 {
+  font-size: 1.3em;
+  padding: 5%;
+}
+
+.ltr p {
+  line-height: 1.4;
+  color: gray;
+}
+
+.ltr p a{
+  color: #C12127;
+}
